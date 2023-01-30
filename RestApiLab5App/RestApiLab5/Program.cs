@@ -3,7 +3,7 @@ using RestApiLab5.Repo;
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddSingleton<IBooks, InMemBookRepo>();
+builder.Services.AddSingleton<IBooks, InMemBookRepo>(); //Must to add!
 // Add services to the container.
 
 

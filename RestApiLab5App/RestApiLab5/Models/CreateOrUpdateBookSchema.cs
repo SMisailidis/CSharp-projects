@@ -2,6 +2,9 @@
 
 namespace RestApiLab5.Models
 {
+
+    //Need to create Folder Models and then Add -> New Item -> Class
+
     public class CreateOrUpdateBookSchema
     {
         public string? Title { get; set; }
